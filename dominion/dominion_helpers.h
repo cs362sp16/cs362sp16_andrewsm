@@ -12,4 +12,11 @@ int getCost(int cardNumber);
 int cardEffect(int card, int choice1, int choice2, int choice3, 
 	       struct gameState *state, int handPos, int *bonus);
 
+//Assignment 1 Refactor Code Definitions
+void card_smithy(int currentPlayer, struct gameState *state, int handPos);
+void card_village(int currentPlayer, struct gameState *state, int handPos);
+void card_greathall(int currentPlayer, struct gameState *state, int handPos);
+void card_outpost(int currentPlayer, struct gameState *state, int handPos);
+void card_seahag(int currentPlayer, struct gameState *state, int curse);
+
 #endif

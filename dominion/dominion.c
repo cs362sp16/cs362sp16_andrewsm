@@ -643,6 +643,69 @@ int getCost(int cardNumber)
   return -1;
 }
 
+//Assignment 1 starts here
+
+void card_smithy(int currentPlayer, struct gameState *state, int handPos)
+{
+	int i;
+
+	//+3 Cards
+	for (i = 0; i < 3; i++)
+	{
+		drawCard(currentPlayer, state);
+//discard card from hand
+		discardCard(handPos, currentPlayer, state, 0);
+	}
+			
+	
+}
+
+void card_village(int currentPlayer, struct gameState *state, int handPos)
+{
+	//+1 Card
+	drawCard(currentPlayer, state);
+			
+	//+2 Actions
+	state->numActions = state->numActions - 2;
+			
+	//discard played card from hand
+	discardCard(handPos, currentPlayer, state, 0);
+}
+
+void card_greathall(int currentPlayer, struct gameState *state, int handPos)
+{
+	//+1 Card
+	drawCard(currentPlayer, state);
+			
+	//+1 Actions
+	state->numActions++;
+			
+	//discard card from hand
+	discardCard(handPos, currentPlayer, state, 0);
+}
+
+void card_outpost(int currentPlayer, struct gameState *state, int handPos)
+{
+	//set outpost flag
+	state->outpostPlayed++;
+			
+	//discard card
+	discardCard(handPos, currentPlayer, state, 0);
+}
+
+void card_seahag(int currentPlayer, struct gameState *state, int curse)
+{
+	int i;
+	for (i = 0; i < state->numPlayers; i++){
+		if (i != currentPlayer){
+			state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
+			state->discardCount[i]++;
+		state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
+		}
+	}
+}
+
+//Bad Function Fix Me
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
 {
   int i;
@@ -829,25 +892,13 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case smithy:
-      //+3 Cards
-      for (i = 0; i < 3; i++)
-	{
-	  drawCard(currentPlayer, state);
-	}
-			
-      //discard card from hand
-      discardCard(handPos, currentPlayer, state, 0);
+	//Assignment 1 refactored. Implamentation above
+	card_smithy(currentPlayer, state, handPos);
       return 0;
 		
     case village:
-      //+1 Card
-      drawCard(currentPlayer, state);
-			
-      //+2 Actions
-      state->numActions = state->numActions + 2;
-			
-      //discard played card from hand
-      discardCard(handPos, currentPlayer, state, 0);
+	//Assignment 1 refactored.
+      	card_village(currentPlayer, state, handPos);
       return 0;
 		
     case baron:
@@ -902,14 +953,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case great_hall:
-      //+1 Card
-      drawCard(currentPlayer, state);
-			
-      //+1 Actions
-      state->numActions++;
-			
-      //discard card from hand
-      discardCard(handPos, currentPlayer, state, 0);
+	//Assignment 1
+      card_greathall(currentPlayer, state, handPos);
       return 0;
 		
     case minion:
@@ -1156,11 +1201,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case outpost:
-      //set outpost flag
-      state->outpostPlayed++;
-			
-      //discard card
-      discardCard(handPos, currentPlayer, state, 0);
+	//Assignment 1
+	card_outpost( currentPlayer, state, handPos);
       return 0;
 		
     case salvager:
@@ -1180,13 +1222,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case sea_hag:
-      for (i = 0; i < state->numPlayers; i++){
-	if (i != currentPlayer){
-	  state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
-	  state->discardCount[i]++;
-	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
-	}
-      }
+	//Assignment 1
+	card_seahag(currentPlayer, state, curse);
       return 0;
 		
     case treasure_map:

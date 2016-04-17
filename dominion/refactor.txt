@@ -1,0 +1,28 @@
+	--Smithy--
+Declared in dominion_helper
+Implamented before card effect
+Included all needed parameters
+int i added for loop.
+Note the i may not be needed if all of card effect gets removed.
+
+	--Village--
+Declared in dominion_helper
+Implamented before card effect
+Included all needed parameters
+
+	--Great_hall--
+Declared in dominion_helper
+Implamented before card effect
+Included all needed parameters
+
+	--Outpost--
+Declared in dominion_helper
+Implamented before card effect
+Included all needed parameters
+
+	--Sea_hag--
+Declared in dominion_helper
+Implamented before card effect
+Included all needed parameters
+int i added for loop.
+Note the i may not be needed if all of card effect gets removed.
