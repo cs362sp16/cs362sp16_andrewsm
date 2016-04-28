@@ -1,0 +1,35 @@
+        -:    0:Source:unittest4.c
+        -:    0:Graph:unittest4.gcno
+        -:    0:Data:unittest4.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "dominion.h"
+        -:    2:#include "dominion_helpers.h"
+        -:    3:#include "anassert.h"
+        -:    4:
+        1:    5:int main()
+        -:    6:{
+        1:    7:	struct gameState* state = calloc(1, sizeof(struct gameState));
+        -:    8:	int i;
+        1:    9:	int count = 0;
+        -:   10:	int test;
+        -:   11:
+        1:   12:	for (i = 0; i < state->deckCount[0]; i++)
+        -:   13:	{
+    #####:   14:		if (state->deck[0][i] == 0) count++;
+        -:   15:	}
+        -:   16:
+        1:   17:	for (i = 0; i < state->handCount[0]; i++)
+        -:   18:	{
+    #####:   19:		if (state->hand[0][i] == 0) count++;
+        -:   20:	}
+        -:   21:
+        1:   22:	for (i = 0; i < state->discardCount[0]; i++)
+        -:   23:	{
+    #####:   24:		if (state->discard[0][i] == 0) count++;
+        -:   25:	}
+        -:   26:
+        1:   27:	test = fullDeckCount(0,0,state);
+        -:   28:
+        1:   29:	anassert(test==count);
+        1:   30:}

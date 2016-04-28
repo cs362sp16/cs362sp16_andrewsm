@@ -1,0 +1,36 @@
+        -:    0:Source:unittest2.c
+        -:    0:Graph:unittest2.gcno
+        -:    0:Data:unittest2.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "dominion.h"
+        -:    2:#include "dominion_helpers.h"
+        -:    3:#include "anassert.h"
+        -:    4:
+        1:    5:int main()
+        -:    6:{
+        1:    7:	struct gameState* state = calloc(1, sizeof(struct gameState));
+        1:    8:	int i,a,b = 0;
+        -:    9:
+        1:   10:	for (i = 0; i < state->handCount[0]; i++)
+        -:   11:	{
+    #####:   12:		if (state->hand[0][i] == copper)
+        -:   13:		{
+    #####:   14:			b += 1;
+        -:   15:		}
+    #####:   16:		else if (state->hand[0][i] == silver)
+        -:   17:		{
+    #####:   18:			b += 2;
+        -:   19:		}
+    #####:   20:		else if (state->hand[0][i] == gold)
+        -:   21:		{
+    #####:   22:			b += 3;
+        -:   23:		}	
+        -:   24:	}
+        -:   25:
+        1:   26:	i = updateCoins(0, state, 0);
+        -:   27:
+        1:   28:	a = state->coins;
+        -:   29:
+        1:   30:	anassert(a==b);
+        1:   31:}

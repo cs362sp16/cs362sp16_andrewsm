@@ -1,0 +1,23 @@
+        -:    0:Source:cardtest2.c
+        -:    0:Graph:cardtest2.gcno
+        -:    0:Data:cardtest2.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "anassert.h"
+        -:    2:#include "dominion.h"
+        -:    3:#include "dominion_helpers.h"
+        -:    4:
+        1:    5:int main()
+        -:    6:{
+        1:    7:	struct gameState* state = calloc(1, sizeof(struct gameState));
+        -:    8:	int test, expect;
+        -:    9:
+        1:   10:	expect = state->outpostPlayed+1;
+        -:   11:
+        -:   12:	//Testing outpost
+        1:   13:	cardEffect(23,0,0,0,state,0,0);
+        1:   14:	test = state->outpostPlayed;
+        -:   15:
+        1:   16:	anassert(test==expect);
+        1:   17:	return 0;
+        -:   18:}
