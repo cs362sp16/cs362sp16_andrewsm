@@ -42,20 +42,36 @@ cardtest4: cardtest4.c dominion.o
 unittestresults.out: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4
 	unittest1 > unittestresults.out
 	gcov unittest1.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 	unittest2 >> unittestresults.out
 	gcov unittest2.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 	unittest3 >> unittestresults.out
 	gcov unittest3.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 	unittest4 >> unittestresults.out
 	gcov unittest4.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 	cardtest1 >> unittestresults.out
-	gcov cardtest1.c >> unittestresults.out	
+	gcov cardtest1.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 	cardtest2 >> unittestresults.out
-	gcov cardtest2.c >> unittestresults.out	
+	gcov cardtest2.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 	cardtest3 >> unittestresults.out
-	gcov cardtest3.c >> unittestresults.out	
+	gcov cardtest3.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 	cardtest4 >> unittestresults.out
-	gcov cardtest4.c >> unittestresults.out	
+	gcov cardtest4.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out
+	rm dominion.c.gcov -f *.o
 
 all: playdom player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 unittestresults.out
 
