@@ -653,8 +653,6 @@ void card_smithy(int currentPlayer, struct gameState *state, int handPos)
 	for (i = 0; i < 3; i++)
 	{
 		drawCard(currentPlayer, state);
-//discard card from hand
-		discardCard(handPos, currentPlayer, state, 0);
 	}
 			
 	

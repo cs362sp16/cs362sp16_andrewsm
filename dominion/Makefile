@@ -73,7 +73,24 @@ unittestresults.out: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2
 	gcov dominion.c >> unittestresults.out
 	rm dominion.c.gcov -f *.o
 
-all: playdom player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 unittestresults.out
+randomtests: dominion.o rngs.o interface.o
+	gcc -o randomtestcard1 randomtestcard1.c dominion.o rngs.o interface.o $(CFLAGS)
+	gcc -o randomtestcard2 randomtestcard2.c dominion.o rngs.o interface.o $(CFLAGS)
+	gcc -o randomtestadventurer randomtestadventurer.c dominion.o rngs.o interface.o $(CFLAGS)
+
+randomtestcard1.out: randomtestcard1
+	randomtestcard1 > randomtestcard1.out
+	gcov dominion.c >> randomtestcard1.out
+
+randomtestcard2.out: randomtestcard2
+	randomtestcard2 > randomtestcard2.out
+	gcov dominion.c >> randomtestcard2.out
+
+randomtestadventurer.out: randomtestadventurer
+	randomtestadventurer > randomtestadventurer.out
+	gcov dominion.c >> randomtestadventurer.out
+
+all: playdom player
 
 clean:
-	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM *.out
+	rm -f *.o playdom.exe playdom test.exe test player randomtestadventurer unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM *.out

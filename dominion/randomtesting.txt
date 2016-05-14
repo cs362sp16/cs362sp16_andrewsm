@@ -1,0 +1,8 @@
+These random tests are all alike as they are similar to the start of playdom.
+However, then they just give the player the card they need, and then play the card.
+This ten tests before and after conditions that should show if the card works or not.
+All tests are getting around the same coverage and some tests are preforming in strange ways.
+Most all tests are failing due to the carsd not working properly and some of the design failures from how the game state is managed.
+I tried to improve a few of the tests but when the carsd im testing are so broken it's hard to figure out how to test them better.
+Quite a few cards are already hitting 100% coverage on the cards and the test branches.
+I feel this would give better results on a better built system with more quasi stable outpouts.
