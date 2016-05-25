@@ -1,0 +1,1479 @@
+1c1
+< 866093008
+---
+> -1783682640
+3c3
+< Player 0 bought 22
+---
+> Player 0 bought 20
+7,8c7
+< Player 3: 0
+< Player 1 bought 22
+---
+> Player 1 bought 20
+12,18c11
+< Player 3: 0
+< Player 2 bought 22
+< Player 0: 3
+< Player 1: 3
+< Player 2: 4
+< Player 3: 3
+< Player 3 bought 22
+---
+> Player 2 bought 20
+22,23c15
+< Player 3: 4
+< Player 0 bought 25
+---
+> Player 0 bought 10
+27,28c19
+< Player 3: 4
+< Player 1 bought 25
+---
+> Player 1 bought 10
+32,38c23
+< Player 3: 4
+< Player 2 bought 25
+< Player 0: 4
+< Player 1: 4
+< Player 2: 4
+< Player 3: 4
+< Player 3 bought 25
+---
+> Player 2 bought 10
+42,44c27,28
+< Player 3: 4
+< Player 0 bought 22
+< Player 0: 3
+---
+> Player 0 bought 10
+> Player 0: 2
+47,58c31
+< Player 3: 4
+< Player 1 bought 22
+< Player 0: 3
+< Player 1: 2
+< Player 2: 2
+< Player 3: 4
+< Player 2 bought 22
+< Player 0: 3
+< Player 1: 2
+< Player 2: 3
+< Player 3: 2
+< Player 3 bought 22
+---
+> Player 1 bought 20
+60,64d32
+< Player 1: 3
+< Player 2: 2
+< Player 3: 3
+< Player 0 bought 22
+< Player 0: 3
+66,73c34,35
+< Player 2: 2
+< Player 3: 3
+< Player 1 bought 22
+< Player 0: 3
+< Player 1: 3
+< Player 2: 2
+< Player 3: 3
+< Player 2 bought silver
+---
+> Player 2: 1
+> Player 2 bought 20
+75,80c37
+< Player 1: 3
+< Player 2: 3
+< Player 3: 4
+< Player 3 bought silver
+< Player 0: 4
+< Player 1: 3
+---
+> Player 1: 2
+82,83c39
+< Player 3: 6
+< Player 0 bought copper
+---
+> Player 0 bought 20
+87,88c43
+< Player 3: 6
+< Player 1 bought silver
+---
+> Player 1 bought 20
+92,113c47,48
+< Player 3: 6
+< Player 2 bought copper
+< Player 0: 5
+< Player 1: 5
+< Player 2: 7
+< Player 3: 1
+< Player 3 bought silver
+< Player 0: 1
+< Player 1: 5
+< Player 2: 7
+< Player 3: 3
+< Player 0 bought copper
+< Player 0: 2
+< Player 1: 2
+< Player 2: 7
+< Player 3: 3
+< Player 1 bought 25
+< Player 0: 2
+< Player 1: 3
+< Player 2: 1
+< Player 3: 3
+< Player 2 bought copper
+---
+> Played gardens card
+> Player 2 bought 20
+115,134d49
+< Player 1: 3
+< Player 2: 3
+< Player 3: 4
+< Player 3 bought 25
+< Player 0: 3
+< Player 1: 3
+< Player 2: 3
+< Player 3: 5
+< Player 0 bought copper
+< Player 0: 5
+< Player 1: 4
+< Player 2: 3
+< Player 3: 5
+< Player 1 bought silver
+< Player 0: 5
+< Player 1: 5
+< Player 2: 4
+< Player 3: 5
+< Player 2 bought 25
+< Player 0: 5
+137,138c52
+< Player 3: 1
+< Player 3 bought copper
+---
+> Player 0 bought 22
+140,145c54
+< Player 1: 5
+< Player 2: 5
+< Player 3: 1
+< Player 0 bought silver
+< Player 0: 3
+< Player 1: 0
+---
+> Player 1: 2
+147,154c56,57
+< Player 3: 1
+< Player 1 bought 25
+< Player 0: 3
+< Player 1: 3
+< Player 2: 1
+< Player 3: 1
+< Player 2 bought 25
+< Player 0: 3
+---
+> Player 1 bought 20
+> Player 0: 2
+157,158c60
+< Player 3: 3
+< Player 3 bought silver
+---
+> Player 2 bought 22
+160,169d61
+< Player 1: 3
+< Player 2: 2
+< Player 3: 5
+< Player 0 bought silver
+< Player 0: 5
+< Player 1: 4
+< Player 2: 2
+< Player 3: 5
+< Player 1 bought silver
+< Player 0: 5
+172,173c64
+< Player 3: 5
+< Player 2 bought silver
+---
+> Player 0 bought 22
+176,195d66
+< Player 2: 4
+< Player 3: 5
+< Player 3 bought 25
+< Player 0: 1
+< Player 1: 4
+< Player 2: 4
+< Player 3: 0
+< Player 0 bought silver
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: -1
+< Player 1 bought silver
+< Player 0: 1
+< Player 1: 1
+< Player 2: 2
+< Player 3: -1
+< Player 2 bought silver
+< Player 0: 1
+< Player 1: 1
+197,208c68,70
+< Player 3: 1
+< Player 3 bought silver
+< Player 0: 4
+< Player 1: 1
+< Player 2: 2
+< Player 3: 2
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 2
+< Player 3: 2
+< Player 1 bought gold
+---
+> Played gardens card
+> Played gardens card
+> Player 1 bought 22
+210c72
+< Player 1: 1
+---
+> Player 1: 5
+212d73
+< Player 3: 2
+214,215c75,76
+< Player 0: 4
+< Player 1: 1
+---
+> Player 0: 0
+> Player 1: 5
+217,218c78
+< Player 3: 3
+< Player 3 bought silver
+---
+> Player 0 bought silver
+222,229c82,83
+< Player 3: 4
+< Player 0 bought copper
+< Player 0: 2
+< Player 1: 0
+< Player 2: 2
+< Player 3: 4
+< Player 1 bought gold
+< Player 0: 2
+---
+> Player 1 bought 22
+> Player 0: 1
+232,238c86,88
+< Player 3: 4
+< Player 2 bought silver
+< Player 0: 2
+< Player 1: 1
+< Player 2: 2
+< Player 3: 4
+< Player 3 bought gold
+---
+> Played gardens card
+> Played gardens card
+> Player 2 bought 22
+242,245c92,96
+< Player 3: 4
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+---
+> Played gardens card
+> Played gardens card
+> Player 0 bought copper
+> Player 0: 6
+> Player 1: 4
+247,250c98,100
+< Player 3: 4
+< Player 1 bought silver
+< Player 0: 4
+< Player 1: 1
+---
+> Player 1 bought copper
+> Player 0: 6
+> Player 1: 7
+252,260c102,104
+< Player 3: 4
+< Player 2 bought copper
+< Player 0: 4
+< Player 1: 1
+< Player 2: 4
+< Player 3: 1
+< Player 3 bought gold
+< Player 0: 5
+< Player 1: 1
+---
+> Player 2 bought silver
+> Player 0: 8
+> Player 1: 6
+262,265c106,108
+< Player 3: 2
+< Player 0 bought silver
+< Player 0: 1
+< Player 1: 1
+---
+> Player 0 bought 0
+> Player 0: 2
+> Player 1: 6
+267d109
+< Player 3: 2
+268a111,114
+> Player 0: 2
+> Player 1: 0
+> Player 2: 5
+> Player 2 bought 10
+270c116
+< Player 1: 1
+---
+> Player 1: 0
+272,288c118
+< Player 3: 2
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 3 bought silver
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 0 bought silver
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 1 bought gold
+---
+> Player 0 bought 22
+291,293c121,123
+< Player 2: 3
+< Player 3: 3
+< Player 2 bought gold
+---
+> Player 2: 0
+> Played gardens card
+> Player 1 bought 22
+295,318c125,127
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 3 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 3
+< Player 3: 5
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 3
+< Player 3: 5
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: -3
+< Player 2: 5
+< Player 3: 5
+< Player 2 bought copper
+< Player 0: 3
+< Player 1: -4
+< Player 2: 2
+< Player 3: 2
+< Player 3 bought silver
+---
+> Player 1: 2
+> Player 2: 0
+> Player 2 bought 10
+320c129
+< Player 1: -4
+---
+> Player 1: 2
+322d130
+< Player 3: 2
+324,343d131
+< Player 0: 4
+< Player 1: 0
+< Player 2: 2
+< Player 3: 3
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 1
+< Player 3: 3
+< Player 2 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 4
+< Player 3: 4
+< Player 3 bought gold
+< Player 0: 0
+< Player 1: 0
+< Player 2: 4
+< Player 3: 5
+< Player 0 bought gold
+345c133
+< Player 1: 0
+---
+> Player 1: 5
+347,348c135
+< Player 3: 5
+< Player 1 bought gold
+---
+> Player 1 bought silver
+350c137
+< Player 1: 0
+---
+> Player 1: 5
+352,353c139,144
+< Player 3: 5
+< Player 2 bought silver
+---
+> Player 2 bought 11
+> Player 0: 2
+> Player 1: 5
+> Player 2: 4
+> Played gardens card
+> Player 0 bought 22
+355c146
+< Player 1: -1
+---
+> Player 1: 6
+357,358c148
+< Player 3: 0
+< Player 3 bought gold
+---
+> Player 1 bought silver
+360c150,154
+< Player 1: -1
+---
+> Player 1: 7
+> Player 2: 6
+> Player 2 bought 22
+> Player 0: 5
+> Player 1: 7
+362,363c156
+< Player 3: 3
+< Player 0 bought gold
+---
+> Player 0 bought 10
+365,367c158,159
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+---
+> Player 1: 8
+> Player 2: 4
+370,390c162
+< Player 1: 1
+< Player 2: 6
+< Player 3: 3
+< Player 2 bought silver
+< Player 0: 2
+< Player 1: 1
+< Player 2: 7
+< Player 3: 4
+< Player 3 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 7
+< Player 3: 5
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 7
+< Player 3: 5
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: 1
+---
+> Player 1: 6
+392,403c164
+< Player 3: 5
+< Player 2 bought silver
+< Player 0: 4
+< Player 1: 1
+< Player 2: 3
+< Player 3: 8
+< Player 3 bought silver
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 9
+< Player 0 bought silver
+---
+> Player 2 bought copper
+405c166,174
+< Player 1: 1
+---
+> Player 1: 6
+> Player 2: 2
+> Player 0 bought copper
+> Player 0: 2
+> Player 1: 2
+> Player 2: 2
+> Player 1 bought silver
+> Player 0: 2
+> Player 1: 3
+407,418c176
+< Player 3: 9
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 4
+< Player 3: 9
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 4
+< Player 3: 2
+< Player 3 bought silver
+---
+> Player 2 bought 11
+420,425c178
+< Player 1: 1
+< Player 2: 4
+< Player 3: 4
+< Player 0 bought gold
+< Player 0: 3
+< Player 1: 0
+---
+> Player 1: 3
+427,430c180,182
+< Player 3: 4
+< Player 1 bought gold
+< Player 0: 3
+< Player 1: 0
+---
+> Player 0 bought 11
+> Player 0: 2
+> Player 1: 4
+432,530c184
+< Player 3: 4
+< Player 2 bought gold
+< Player 0: 3
+< Player 1: 0
+< Player 2: 6
+< Player 3: 4
+< Player 3 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 6
+< Player 3: 4
+< Player 0 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 6
+< Player 3: 4
+< Player 1 bought gold
+< Player 0: 5
+< Player 1: 1
+< Player 2: 7
+< Player 3: 4
+< Player 2 bought silver
+< Player 0: 5
+< Player 1: 1
+< Player 2: 3
+< Player 3: 5
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 5
+< Player 1: 1
+< Player 2: 3
+< Player 3: 6
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 2
+< Player 2: 3
+< Player 3: 6
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 2
+< Player 2: 1
+< Player 3: 6
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 2
+< Player 2: 3
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 1
+< Player 1: 2
+< Player 2: 3
+< Player 3: 2
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 2
+< Player 2: 3
+< Player 3: 2
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 4
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 4
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 2
+< Player 1: 0
+< Player 2: 4
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+---
+> Player 1 bought 10
+532,537c186,191
+< Player 1: 0
+< Player 2: 4
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+---
+> Player 1: 5
+> Player 2: 5
+> Played gardens card
+> Played gardens card
+> Played gardens card
+> Player 2 bought 4
+539,544c193,195
+< Player 1: 0
+< Player 2: 4
+< Player 3: 4
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+---
+> Player 1: 5
+> Player 2: 6
+> Player 0 bought copper
+546,551c197,199
+< Player 1: 0
+< Player 2: 4
+< Player 3: 4
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+---
+> Player 1: 5
+> Player 2: 6
+> Player 1 bought 10
+553c201,205
+< Player 1: 1
+---
+> Player 1: 5
+> Player 2: 6
+> Player 2 bought 10
+> Player 0: 5
+> Player 1: 5
+555,619c207,209
+< Player 3: 4
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 5
+< Player 3: 4
+< Player 2 bought silver
+< Player 0: 3
+< Player 1: 1
+< Player 2: 5
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 5
+< Player 3: 2
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 5
+< Player 3: 2
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: 2
+< Player 2: 2
+< Player 3: 2
+< Player 2 bought silver
+< Player 0: 4
+< Player 1: 2
+< Player 2: 3
+< Player 3: 3
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 0
+< Player 1: 2
+< Player 2: 3
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 0
+< Player 1: 2
+< Player 2: 3
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 0
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 0
+< Player 1: 1
+---
+> Player 0 bought 10
+> Player 0: 6
+> Player 1: 7
+621,624c211,222
+< Player 3: 3
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+---
+> Player 1 bought silver
+> Player 0: 6
+> Player 1: 10
+> Player 2: 0
+> Played mine card
+> Played gardens card
+> Player 2 bought copper
+> Player 0: 6
+> Player 1: 10
+> Player 2: 0
+> Played gardens card
+> Player 0 bought copper
+626,702d223
+< Player 1: 1
+< Player 2: 4
+< Player 3: 5
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 4
+< Player 3: 5
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 4
+< Player 3: 5
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 4
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 4
+< Player 3: 2
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 4
+< Player 3: 2
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 5
+< Player 3: 2
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 6
+< Player 3: 3
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 6
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 6
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 1
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 4
+704,708c225,226
+< Player 2: 2
+< Player 3: 3
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+---
+> Player 2: 0
+> Player 1 bought 11
+710,805d227
+< Player 1: 0
+< Player 2: 2
+< Player 3: 4
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 2
+< Player 3: 4
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 2
+< Player 3: 4
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 2
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 0 bought silver
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 2
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 2
+< Player 1: 2
+< Player 2: 4
+< Player 3: 2
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 2
+< Player 1: 2
+< Player 2: 3
+< Player 3: 3
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 2
+< Player 1: 2
+< Player 2: 3
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 3
+< Player 1: 2
+< Player 2: 3
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 4
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 4
+< Player 3: 0
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 4
+< Player 3: 1
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 4
+< Player 3: 1
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 4
+808,818c230,231
+< Player 3: 1
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 4
+< Player 1: 1
+< Player 2: 3
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+---
+> Played gardens card
+> Player 2 bought copper
+822,858c235,236
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 2 bought silver
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 4
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 4
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 4
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+---
+> Played mine card
+> Player 0 bought copper
+862,893c240
+< Player 3: 4
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 2
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 2
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 2
+< Player 1: 0
+< Player 2: 4
+< Player 3: 2
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+---
+> Player 1 bought 11
+895,909c242
+< Player 1: 0
+< Player 2: 5
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 5
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 1
+---
+> Player 1: 3
+911,946d243
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 1
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 1
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 1
+< Player 3: 1
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 3
+< Player 1: 0
+< Player 2: 1
+< Player 3: 1
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 2
+< Player 3: 1
+949,1176c246,248
+< Player 1: 1
+< Player 2: 3
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 1
+< Player 1: 1
+< Player 2: 3
+< Player 3: 1
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 1
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 4
+< Player 3: 1
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 5
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 5
+< Player 3: 4
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 5
+< Player 3: 4
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 1
+< Player 3: 4
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 2
+< Player 1: 1
+< Player 2: 3
+< Player 3: 0
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 3
+< Player 1: 1
+< Player 2: 3
+< Player 3: 2
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 3
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 3
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 3
+< Player 3: 4
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 3
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 3
+< Player 3: 4
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 6
+< Player 1: 0
+< Player 2: 3
+< Player 3: 4
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 6
+< Player 1: 0
+< Player 2: 3
+< Player 3: 4
+< Player 2 bought copper
+< Player 0: 6
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 0
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+---
+> Player 1: 3
+> Player 2: 6
+> Player 0 bought copper
+1178,1277c250,252
+< Player 1: 0
+< Player 2: 3
+< Player 3: 4
+< Player 0 bought silver
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 4
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 4
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 0
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 1
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 5
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 5
+< Player 3: 3
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 5
+< Player 3: 3
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 0
+< Player 3: 3
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 2 bought gold
+< Player 0: 1
+< Player 1: 0
+< Player 2: 1
+< Player 3: 1
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 2
+< Player 1: 0
+< Player 2: 1
+< Player 3: 1
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 1
+< Player 3: 1
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 1 bought gold
+< Player 0: 4
+< Player 1: 0
+< Player 2: 2
+< Player 3: 1
+< Player 2 bought silver
+---
+> Player 1: 5
+> Player 2: 6
+> Player 1 bought 10
+1279,1293c254,255
+< Player 1: 0
+< Player 2: 2
+< Player 3: 2
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 3 bought gold
+< Player 0: 5
+< Player 1: 0
+< Player 2: 2
+< Player 3: 3
+< Player 0 bought silver
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+---
+> Player 1: 7
+> Player 2: 8
+1295,1298c257,259
+< Player 0: 5
+< Player 1: 0
+< Player 2: 3
+< Player 3: 2
+---
+> Player 0: 4
+> Player 1: 7
+> Player 2: 8

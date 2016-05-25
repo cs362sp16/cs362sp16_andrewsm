@@ -1,0 +1,28 @@
+#!/bin/bash
+
+MYDIR=$1
+YOURDIR=$2
+SEED=$3
+
+cd $MYDIR
+pwd
+echo
+make testdominion
+./testdominion $SEED > testdominion1.out 
+cp ./testdominion.c $YOURDIR
+cp ./tests.h $YOURDIR
+cd $YOURDIR
+pwd
+echo
+make testdominion
+gcc -o testdominion testdominion.c rngs.c interface.c dominion.c -coverage -fpic -g -lm 
+./testdominion $SEED > testdominion2.out
+cd .. #go home
+#pwd
+if ! cmp -s $MYDIR/testdominion1.out $YOURDIR/testdominion2.out
+then
+	echo "TEST FAILED"
+	diff $YOURDIR/testdominion1.out $YOURDIR/testdominion2.out > diff.out
+	diff -y $YOURDIR/testdominion1.out $YOURDIR/testdominion2.out > diffcolumns.out
+else echo "TEST SUCCEEDED"
+fi

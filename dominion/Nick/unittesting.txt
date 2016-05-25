@@ -1,0 +1,7 @@
+My testing effors are quite poor. Most of them purely test the case of if a game exists do the tests pass, when the game has not been played.
+If the game was played for even a few turns 3 or more of these tests should fail.
+Hand size is small or non existent in tests and thus some tests have very poor coverage.
+other tests have full coverage, however in the dominion code the functions coverage is poor and lacks due to failing cases and poorly tested itterations.
+These unit tests should be preformed as if mid game rather than start of game. The fact that as unit tests they work to test spesiphic situations that (unfortunatly) pass without further
+efforts to explore the complexity that the game might create lead me to velive that unit testing, while good for some situations, is not the direction I would like to go for this game.
+I would prefer to include intermitent unit testing at diffrient play times throughout the game.

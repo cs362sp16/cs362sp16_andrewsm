@@ -1,0 +1,4 @@
+It's not easy to figure out whose implamentation is correct.
+Since we know neither are correct this test is failed due to something false can't prove something else false.
+Differential testing in essince is supposed to work with something that has already been verified to work by other means.
+Thus, more testing outside of differential should be done before diff testing is done.

@@ -1,0 +1,9 @@
+All of the tests pass... When they shoulden't. Quite a few are purely giving the correct result as the game is initialized but never played.
+Hence we are testing the null cass. Thus logically it passes without there actually being causality.
+In mathematics this is to say
+Q: We play dominion
+P: The test passes
+Q->P (Q implies P)
+While the truth table is indeterminante for some cases as our tests don't work the table holds and passes all tests for
+Q = false and P = true. Thus, most of our results are useless unless the code passed 100% coverage AND all given parameters are set to MEANINGFUL data.
+This is hard to assume though as out tests are still valid on the null case to verify that they don't break the null case.
