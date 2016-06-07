@@ -1,0 +1,8 @@
+I used the Milu mutation test tool to generate mutants.
+I had it make about 1000 mutants.
+The mutants were hard to look through and made the testing process take a lot longer.
+In the end it looked like the mutation tests would have done better to test my random tester and card tests since a lot of the mutants that were covered were killed.
+The coverage on the mutants was less than my random tester as my tester turned out to be more likely to not fault or cause issues that would cause an end to the program.
+It was useful however to look at my random tester through the mutator and find that my testor was quite bad, and sometimes gained more coverage.
+This however was found to be due to the mutant letting players buy more than just kingdom cards.
+I have taken a list of mutants and put them into mutation_test.txt

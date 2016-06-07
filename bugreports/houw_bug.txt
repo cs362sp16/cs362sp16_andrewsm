@@ -1,0 +1,9 @@
+Houw_bug report
+
+Location: council_room
+
+Issue: for loop, for (i = 0; i < 3; i++) only covers 3 players and needs to run off players.
+
+Severity: Moderate. The game is playable still, but not properly functional.
+
+Priority: Moderate. This bug willl cause an unfair game for games over 3 players, and will also cause issues in testing other bugs.

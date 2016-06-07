@@ -1,0 +1,14 @@
+First I ran my random tester, then my unit tests.
+Second I looked into what cases failed.
+Then I went into coverage to see where in certain functions failed.
+
+In the playCard bug I found it was quite easy to see the error here since I've speant a good amount of time with the code so far.
+
+In the counsil_room card I noticed the bug due to having played dominion before and noticing the for loop was lacking.
+
+Lastly in Village the ordering of actions when plaing a card stood out to me.
+
+Agan's Prinsipales were a huge part of my process.
+-The understanding of Dominion I've gained from playing the game helped me to quickly notice and remove bugs related to gameplay failures that were simplistic in implamentation.
+-Changing on thing at a time helped ensure that what i changed fixed the problem and other issues that arose from the first issue.
+-My taking a look at how our system works the game unlike in the real world it because easy to notice issues in it's methidology.

@@ -1,0 +1,9 @@
+Jiangzh_bug report
+
+Location: village
+
+Issue: state_numActions = state->numActions + 2; The number of actions dosen't account for it'self being decrimented at the end of use.
+
+Severity: Moderate. The game is playable still, but not properly functional.
+
+Priority: Moderate. This bug will cause the card to not be as useful, and will also cause issues in testing other bugs.

@@ -1,0 +1,9 @@
+Danm_bug report
+
+Location: playCard()
+
+Issue: boolean {(card < adventurer || card > treasure_map)} returns true even when it should return false
+
+Severity: Moderate. The game is playable still, but not properly functional.
+
+Priority: Low. There are other more sever bugs that cause extream gameplay problems that should be fixed first.
